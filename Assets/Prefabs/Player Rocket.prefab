@@ -136,8 +136,8 @@ MonoBehaviour:
       m_Action: Rotation
       m_Flags: 8
     m_Flags: 0
-  thrustStrength: 1000
-  rotationStrength: 100
+  thrustStrength: 2000
+  rotationStrength: 200
   mainEngineSFX: {fileID: 8300000, guid: 0ee54d7277de1c04bae7f70b1f450d5c, type: 3}
   mainThrustParticles: {fileID: 3808428481888003679}
   leftThrustParticles: {fileID: 8562305099206843396}
