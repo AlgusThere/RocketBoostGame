@@ -1,9 +1,12 @@
+using System.Net.Sockets;
 using UnityEngine;
 
 public class Rocket : MonoBehaviour
 {
     [SerializeField] float timeToWait;
     [SerializeField] float speed;
+
+    [SerializeField] Vector3 rocketRotation;
     //[SerializeField] Vector3 movementVector;
 
     Vector3 startPosition;
@@ -17,6 +20,6 @@ public class Rocket : MonoBehaviour
 
     private void Update()
     {
-        transform.position += Vector3.up * speed * Time.deltaTime;
+        transform.position += rocketRotation * speed * Time.deltaTime;
     }
 }

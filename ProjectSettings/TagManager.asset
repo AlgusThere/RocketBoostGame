@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Friendly
   - Fuel
+  - Destroyable
   layers:
   - Default
   - TransparentFX
